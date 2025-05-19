@@ -1,0 +1,23 @@
+# AMFI NAV Extractor
+
+A simple shell script to download and extract **Scheme Name** and **Net Asset Value (NAV)** from AMFI’s NAVAll.txt file, and save the data as a TSV file.
+
+---
+
+## Features
+
+- Downloads latest NAV data from [AMFI](https://www.amfiindia.com/spages/NAVAll.txt)
+- Extracts Scheme Name and Asset Value fields
+- Saves output in a tab-separated values file (`amfi_nav_data.tsv`)
+
+---
+
+## Usage
+
+Clone the repository and run the script:
+
+```bash
+git clone https://github.com/your-username/amfi-nav-extractor.git
+cd amfi-nav-extractor
+chmod +x nav_extractor.sh
+./nav_extractor.sh
